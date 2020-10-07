@@ -1,0 +1,76 @@
+Artificial Intelligence
+fuentes kiekintveld novick
+AI
+fuentes kiekintveld novick
+ML
+fuentes hossain ward 
+Deep Learning 
+fuentes hossain ward
+Neural Networks
+fuentes hossain ward
+Social Computing
+villanueva gates akbar
+Internet of Things
+salamah acosta freudenthal
+Mobile Netorks
+freudenthal salamah tosh
+Systems
+freudenthal salamah tosh
+research like Alan Black
+ward novick fuentes
+Reliable Systems
+freudenthal ceberio salamah
+reasoning under uncertainty
+kreinovich ceberio
+logic and its applications
+ceberio kreinovich
+theory
+longpre kreinovich ceberio
+applications of AI
+fuentes hossain kiekintveld
+cybersecurity and
+salamah longpre acosta
+cyberdefense and security 
+acosta salamah longpre
+software engineering
+gates salamah badreddin
+sustainable research software
+badreddin salamah
+programming languages
+cheon ward
+model-driven / model-based software dev
+badreddin cheon salamah
+computer security
+longpre acosta salamah
+secure systems
+acosta longpre salamah
+intelligence applications
+hossain ward kiekintveld
+programming
+cheon gates salamah
+programming langauge research
+cheon
+CS education
+freudenthal akbar gates
+computer science education 
+freudenthal akbar gates
+smart cities
+villanueva gates fuentes
+information systems
+villanueva akbar
+advanced database management systems
+villanueva
+V&V
+salamah
+KDD
+hossain
+urban issues
+villanueva
+bioinformatics
+deblasio
+optimization
+ceberio tosh fuentes
+requirements
+tai salamah
+neural networks
+fuentes aguirre

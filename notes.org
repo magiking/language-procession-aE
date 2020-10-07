@@ -1,0 +1,13 @@
+* What do we need to make?
+  - similarity computation
+    - need some kind of vectors to make that happen
+  - design and implement some features? Does this mean feature vectors?
+  - experiment
+    - cosine similarity to calculate (pg. 158 in irbook)
+    - word unigrams (term frequency)
+    - tf-idf
+    - add stemming/length normalization/stoplist
+  
+* irStub.py
+  Example of creating feature vectors and computing similarity with them.
+  

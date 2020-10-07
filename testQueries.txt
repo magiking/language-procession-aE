@@ -1,0 +1,72 @@
+Scientific Computing
+akbar gates villanueva
+e-science
+gates
+data science
+hossain villanueva fuentes
+data analytics
+hossain
+sustainability
+badreddin villanueva
+hardware/software codesign
+salamah
+digital libraries
+akbar
+digital cities
+villanueva
+computational science
+ceberio kreinovich fuentes
+computational finance
+kreinovich
+high performance computing
+freudenthal
+professor deepak tosh
+tosh
+blockchain 
+tosh
+distributed
+freudenthal tosh
+trustworthy computing
+freudenthal longpre
+privacy
+longpre
+heterogenous networks
+freudenthal
+low-latency
+freudenthal
+embedded systems
+freudenthal salamah
+human-computer interactoin
+ward novick
+human-centered design
+novick ward
+interfaces
+novick ward
+development methodologies
+badreddin gates cheon
+secure systems
+acosta freudenthal longpre
+reliable/trustworth
+freudenthal ceberio
+web services
+longpre villanueva
+information retrieval
+ward akbar
+prosody
+ward
+dialog/dialogue (systems, models)
+novick ward
+interactive systems
+novick ward
+agents
+novick kiekintveld
+sequencing
+deblasio
+decision making
+ceberio kiekintveld
+security
+longpre, salamah, acosta
+software
+salamah, tai, acosta
+ml
+aguirre fuentes salamah

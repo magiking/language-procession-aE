@@ -1,0 +1,235 @@
+read in pages for ['akbar', 'badreddin', 'ceberio', 'cheon', 'freudenthal', 'fuentes', 'gates', 'hossain', 'kiekintveld', 'kreinovich', 'longpre', 'novick', 'salamah', 'villanueva', 'ward', 'tosh', 'deblasio', 'acosta', 'tai', 'aguirre']
+results: [array([ 5,  7, 11]), array([19, 18,  1]), array([19, 18,  1]), array([ 5, 19,  7]), array([19,  5,  2]), array([6, 9, 0]), array([ 5,  9, 10]), array([ 4,  5, 19]), array([1, 4, 2]), array([6, 3, 1]), array([1, 4, 9]), array([2, 9, 8]), array([5, 3, 6]), array([10,  8, 15]), array([ 5, 10,  9]), array([5, 3, 6]), array([17,  5,  3]), array([18, 12,  1]), array([18,  1, 12]), array([ 3, 14, 19]), array([18,  1, 12]), array([17, 10, 15]), array([ 1,  4, 10]), array([5, 8, 7]), array([ 3,  4, 13]), array([3, 6, 1]), array([ 0,  6, 12]), array([10, 12, 11]), array([13,  0,  5]), array([17, 10,  0]), array([1, 0, 9]), array([19, 18,  1]), array([19, 18,  1]), array([15,  9,  8]), array([16,  5, 19]), array([ 2, 15,  8]), array([18, 19,  1]), array([19,  5,  2])]
+
+Scores for raw term frequency model on csFaculty.txt
+for query: Artificial Intelligence
+  results = 
+[ 5  7 11]
+  targets = 
+[5, 8, 11]
+  score = 1.250
+for query: AI
+  results = 
+[19 18  1]
+  targets = 
+[5, 8, 11]
+  score = 0.000
+for query: ML
+  results = 
+[19 18  1]
+  targets = 
+[5, 7, 14]
+  score = 0.000
+for query: Deep Learning
+  results = 
+[ 5 19  7]
+  targets = 
+[5, 7, 14]
+  score = 1.250
+for query: Neural Networks
+  results = 
+[19  5  2]
+  targets = 
+[5, 7, 14]
+  score = 0.500
+for query: Social Computing
+  results = 
+[6 9 0]
+  targets = 
+[13, 6, 0]
+  score = 0.750
+for query: Internet of Things
+  results = 
+[ 5  9 10]
+  targets = 
+[12, 17, 4]
+  score = 0.000
+for query: Mobile Netorks
+  results = 
+[ 4  5 19]
+  targets = 
+[4, 12, 15]
+  score = 1.000
+for query: Systems
+  results = 
+[1 4 2]
+  targets = 
+[4, 12, 15]
+  score = 0.500
+for query: research like Alan Black
+  results = 
+[6 3 1]
+  targets = 
+[14, 11, 5]
+  score = 0.000
+for query: Reliable Systems
+  results = 
+[1 4 9]
+  targets = 
+[4, 2, 12]
+  score = 0.500
+for query: reasoning under uncertainty
+  results = 
+[2 9 8]
+  targets = 
+[9, 2]
+  score = 1.000
+for query: logic and its applications
+  results = 
+[5 3 6]
+  targets = 
+[2, 9]
+  score = 0.000
+for query: theory
+  results = 
+[10  8 15]
+  targets = 
+[10, 9, 2]
+  score = 1.000
+for query: applications of AI
+  results = 
+[ 5 10  9]
+  targets = 
+[5, 7, 8]
+  score = 1.000
+for query: cybersecurity and
+  results = 
+[5 3 6]
+  targets = 
+[12, 10, 17]
+  score = 0.000
+for query: cyberdefense and security
+  results = 
+[17  5  3]
+  targets = 
+[17, 12, 10]
+  score = 1.000
+for query: software engineering
+  results = 
+[18 12  1]
+  targets = 
+[6, 12, 1]
+  score = 0.750
+for query: sustainable research software
+  results = 
+[18  1 12]
+  targets = 
+[1, 12]
+  score = 0.750
+for query: programming languages
+  results = 
+[ 3 14 19]
+  targets = 
+[3, 14]
+  score = 1.500
+for query: model-driven / model-based software dev
+  results = 
+[18  1 12]
+  targets = 
+[1, 3, 12]
+  score = 0.750
+for query: computer security
+  results = 
+[17 10 15]
+  targets = 
+[10, 17, 12]
+  score = 1.000
+for query: secure systems
+  results = 
+[ 1  4 10]
+  targets = 
+[17, 10, 12]
+  score = 0.250
+for query: intelligence applications
+  results = 
+[5 8 7]
+  targets = 
+[7, 14, 8]
+  score = 0.500
+for query: programming
+  results = 
+[ 3  4 13]
+  targets = 
+[3, 6, 12]
+  score = 1.000
+for query: programming langauge research
+  results = 
+[3 6 1]
+  targets = 
+[3]
+  score = 1.000
+for query: CS education
+  results = 
+[ 0  6 12]
+  targets = 
+[4, 0, 6]
+  score = 0.750
+for query: computer science education
+  results = 
+[10 12 11]
+  targets = 
+[4, 0, 6]
+  score = 0.000
+for query: smart cities
+  results = 
+[13  0  5]
+  targets = 
+[13, 6, 5]
+  score = 1.250
+for query: information systems
+  results = 
+[17 10  0]
+  targets = 
+[13, 0]
+  score = 0.250
+for query: advanced database management systems
+  results = 
+[1 0 9]
+  targets = 
+[13]
+  score = 0.000
+for query: V&V
+  results = 
+[19 18  1]
+  targets = 
+[12]
+  score = 0.000
+for query: KDD
+  results = 
+[19 18  1]
+  targets = 
+[7]
+  score = 0.000
+for query: urban issues
+  results = 
+[15  9  8]
+  targets = 
+[13]
+  score = 0.000
+for query: bioinformatics
+  results = 
+[16  5 19]
+  targets = 
+[16]
+  score = 1.000
+for query: optimization
+  results = 
+[ 2 15  8]
+  targets = 
+[2, 15, 5]
+  score = 1.500
+for query: requirements
+  results = 
+[18 19  1]
+  targets = 
+[18, 12]
+  score = 1.000
+for query: neural networks
+  results = 
+[19  5  2]
+  targets = 
+[5, 19]
+  score = 1.000
+All Scores:
+[1.25, 0, 0, 1.25, 0.5, 0.75, 0, 1.0, 0.5, 0, 0.5, 1.0, 0, 1.0, 1.0, 0, 1.0, 0.75, 0.75, 1.5, 0.75, 1.0, 0.25, 0.5, 1.0, 1.0, 0.75, 0, 1.25, 0.25, 0, 0, 0, 0, 1.0, 1.5, 1.0, 1.0]
+Overall Score: 0.632
