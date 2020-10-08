@@ -129,17 +129,13 @@ if __name__ == "__main__":
             f"{modelName} on {sys.argv[1]}")
 
 
-    # print("TF-IDF RESULTS")
-    # modelName2 = "TF-IDF Results"
-    # tf_idf_results = computeIDF(queries, tf_dicts)
-    # # print(tf_idf_results)
-    # irStub.scoreAllResults(queries, tf_idf_results, targetIDs, f"{modelName2} on {sys.argv[1]}")
+    modelName2 = "TF-IDF Results"
+    tf_idf_results = computeIDF(queries, tf_dicts)
+    irStub.scoreAllResults(queries, tf_idf_results, targetIDs, f"{modelName2} on {sys.argv[1]}")
 
-    print("Normalized TF-IDF RESULTS")
     modelName3 = "Normalized TF-IDF Results"
-    tf_idf_results = computeIDF(queries, normalized_tfs)
-    # print(tf_idf_results)
-    irStub.scoreAllResults(queries, tf_idf_results, targetIDs, f"{modelName3} on {sys.argv[1]}")
+    norm_tf_idf_results = computeIDF(queries, normalized_tfs)
+    irStub.scoreAllResults(queries, norm_tf_idf_results, targetIDs, f"{modelName3} on {sys.argv[1]}")
   
         
 
