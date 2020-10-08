@@ -55,7 +55,41 @@ def retrieve(queries, doc_dicts):
         top3sets.append(top3indices)  
     return top3sets
 
-    
+def computeIDF(queries, doc_dicts):
+    top3sets = []
+    for q in queries:
+        # compute unigram counts
+        tf_query = unigramCounts(q) # tf for the query
+        df = { word:0 for word in tf_query }
+
+        for term in tf_query.keys():
+            for doc in doc_dicts:
+                if term in doc:
+                    df[term] += 1
+
+        # idf = np.log(len(doc_dicts) / (np.array(df.values()) + 1))
+        idf = [np.log(len(doc_dicts) / (x + 1)) for x in df.values()]
+
+        tf_vectors = [] # term freqs for each document
+        for dict_ in doc_dicts:
+            tf_vectors.append([ dict_[k] if k in dict_.keys() else 0 for k in tf_query])
+
+        for v in tf_vectors:
+            for i in range(len(v)):
+                v[i] *= idf[i]
+
+        tf_idf_query = list(tf_query.values())
+
+        for i in range(len(tf_idf_query)):
+            tf_idf_query[i] *= idf[i]
+
+        similarities = np.array([ cosineSimilarity(tf_idf_query, d) for d in tf_vectors ])
+        top3indices = similarities.argsort()[::-1][:3] # sort in desc order and take top 3
+        top3sets.append(top3indices)  
+
+    return top3sets
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python3 e.py " +
@@ -74,6 +108,7 @@ if __name__ == "__main__":
     tf_dicts = [] # would be archine
     for c in contents:
         tf_dicts.append(unigramCounts(c)) # unigramCounts replaces computeFeatures from irStub
+
     
     normalized_tfs= [] # or this would be archive
     for d in tf_dicts:
@@ -92,6 +127,20 @@ if __name__ == "__main__":
     modelName = "raw term frequency model"
     irStub.scoreAllResults(queries, results, targetIDs, 
             f"{modelName} on {sys.argv[1]}")
+
+
+    # print("TF-IDF RESULTS")
+    # modelName2 = "TF-IDF Results"
+    # tf_idf_results = computeIDF(queries, tf_dicts)
+    # # print(tf_idf_results)
+    # irStub.scoreAllResults(queries, tf_idf_results, targetIDs, f"{modelName2} on {sys.argv[1]}")
+
+    print("Normalized TF-IDF RESULTS")
+    modelName3 = "Normalized TF-IDF Results"
+    tf_idf_results = computeIDF(queries, normalized_tfs)
+    # print(tf_idf_results)
+    irStub.scoreAllResults(queries, tf_idf_results, targetIDs, f"{modelName3} on {sys.argv[1]}")
+  
         
 
     
